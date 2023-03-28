@@ -1,0 +1,280 @@
+
+
+
+
+
+
+.mainDiv {
+    border: 1px solid;
+    border-radius: 4px;
+
+ 
+    border-radius: 4px;
+    height: 90%;
+    margin-top: 10px;
+    /* background-image: linear-gradient(45deg, #274689, transparent); */
+}
+.image {
+    width: 30px;
+    padding-left: 10px;
+}
+.buttonDiv {
+    border: 1px solid #b6b6bf;
+    border-radius: 9px;
+    background: #bfc2cf;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 3%;
+}
+.buttonsDiv {
+    display: flex;
+    margin-top: 35px;
+}
+
+.selectDiv {
+    /* border: 1px solid; */
+    top: 10%;
+    margin-top: 100px;
+    
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 40%;
+    border: 1px solid;
+    background:#f1f1f1;
+    display: none;
+
+}
+.productDiv {
+    display: none;
+}
+.serviceDiv {
+    display: none;
+}
+.businessDiv {
+    display: none;
+}
+.vendorDiv {
+    display: none;
+}
+.assetDiv {
+    display: none;
+}
+.changeRequest {
+    display: none;
+}
+.pendingRequest {
+    display: none;
+}
+.pendingApprovals {
+    display: none;
+}
+.businessPartner {
+    display: none;
+}
+
+
+
+
+.header{
+    margin: 0; padding: 2em 5em 4em; color: #efefef;
+    overflow:hidden;
+    position: relative;
+  }
+  
+  .header::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    transform: skewY(-4deg);
+    background-image: linear-gradient(45deg, #1573db, #c0c5d3);
+    transform-origin: bottom left;
+    z-index: -1;
+  }
+  h1{
+    font-family: seri
+  }
+  
+/* CSS */
+.buttonDiv {
+  background-color: #5ea8df;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  outline: 0;
+  padding: 7px 13px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+};
+
+.buttonDiv:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.buttonDiv:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+.employeesSelect{
+background: #5ea8df;
+border:none;
+}
+.changeRequest {
+    margin-top: 20px;
+    display: none;
+}
+.supersededMaterials {
+    display: none;
+    margin-top: 20px;
+}
+.UnsupersededMaterials {
+    display: none;
+    margin-top: 20px;
+}
+.backButton {
+    right: 24px;
+    position: absolute;
+    bottom: 13px;
+
+}
+button {
+    margin-top: 10px;
+}
+
+
+
+
+.backButton{
+display: inline-block;
+outline: 0;
+border: 0;
+cursor: pointer;
+will-change: box-shadow,transform;
+background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+padding: 0 15px;
+border-radius: 6px;
+color: #fff;
+height: 30px;
+font-size: 13px;
+text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+transition: box-shadow 0.15s ease,transform 0.15s ease;
+}
+.backButton:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+.backButton:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+input {
+    border-radius:7px;
+}
+
+.businessSelect1 {
+position: fixed;
+height: 25px;
+    right: 35%;
+    bottom: 48%;
+    width: 156px;
+    border-radius: 4px;
+}
+
+.businessSelect2 {
+    position: fixed;
+    height: 25px;
+        right: 48%;
+        bottom: 48%;
+        width: 156px;
+    border-radius: 4px;
+    }
+
+/* .searchInput {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 34px;
+
+} */
+
+.businessSubmit {
+position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+
+
+
+/* submitButtonstyle starts here*/
+
+
+
+.businessSubmit{
+    color:#f1f1f1;
+    display: block;
+    border: none;
+    padding: 4px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+    background-color: #76a9f0;
+    box-shadow: 4px 4px 5px #bec3c9, -4px -4px 10px #ffffff;
+    cursor: pointer;
+    outline: none;
+
+}
+    .businessSubmit:hover {
+      box-shadow: 2px 2px 5px #bec3c9, -2px -2px 5px #ffffff;
+    }
+    .businessSubmit:active {
+      box-shadow: inset 2px 2px 3px #bec3c9, inset -2px -2px 3px #ffffff;
+    
+  }
+
+  .createFileButton {
+    display: flex;
+    position: relative;
+    left:40%;
+  }
+
+  #showPopupdialogBox {
+  /* border: 1px solid cornflowerblue; */
+    width: 70%;
+    border-radius: 5px;
+    margin: 89px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .heading {
+    background: cornflowerblue;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+  }

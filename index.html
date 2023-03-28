@@ -1,0 +1,259 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mainDiv">
+                    <div class="header">
+                    <h1 class="animate__animated animate__backInDown">what do  you looking for ?</h1>
+                </div>
+
+                  
+                <!-- <div>
+                    <input placeholder="search here...." class="searchInput"/>
+                    <i class="fa-solid fa-magnifying-glass fa-beat"></i>
+                </div> -->
+
+
+
+
+
+
+
+
+                    <div class="buttonsDiv">
+
+                    <div class="buttonDiv  animate__animated animate__tada" id="productId">
+                     <img src="https://pilogcloud.com/iVisionDXP/images/MaterialMaster.png" class="image"/>
+                     <span >product</span>
+
+                    
+                    </div>
+
+
+                    <div class="buttonDiv animate__animated animate__tada" id="serviceId">
+                        <img src="https://pilogcloud.com/iVisionDXP/images/ServiceMaster.png" class="image"/>
+                        <span>Service</span>
+                       </div>
+
+
+                       <div class="buttonDiv animate__animated animate__tada" id="BusinessId">
+                        <img src="https://pilogcloud.com/iVisionDXP/images/BusinessPartner.png" class="image"/>
+                        <span>Business Partner</span>
+                       </div>
+
+
+                       <div class="buttonDiv animate__animated animate__tada" id="vendorId">
+                        <img src="https://pilogcloud.com/iVisionDXP/images/VendorMaster.png" class="image"/>
+                        <span>Vendor</span>
+                       </div>
+
+                       <div class="buttonDiv animate__animated animate__tada" id="assetId">
+                        <img src="https://pilogcloud.com/iVisionDXP/images/AssetMaster.png" class="image"/>
+                        <span>Asset</span>
+                       </div>
+
+
+                       <div class="buttonDiv animate__animated animate__tada">
+                        <img src="https://pilogcloud.com/iVisionDXP/images/EmployeeMaster.png" class="image"/>
+                        <select class="employeesSelect">
+                            <option>Employees</option>
+                            <option>Prodution Team</option>
+                            <option>Financial Team</option>
+                            <option>Marketing Team</option>
+                        </select>
+                       </div>
+
+                    </div>
+
+
+                    <div class="selectDiv">
+                        <div class="productDiv" >
+                            <div>
+                            <p>what type of product you are searching for</p>
+                            <input placeholder="search for product"/>
+                            </div>
+                            
+                            <div class="animate__animated animate__backInLeft">
+                                <button class="buttonDiv" id="changeRequestId">Change Request</button>
+                                <button class="buttonDiv" id="supersededMaterialsId">Superseded Materials</button>
+                                <button class="buttonDiv" id="unsupersededMaterialsId">Unsuperseded Materials</button>
+                                <button class="buttonDiv" id="materialsClusterId">Material Cluster</button>
+                            </div>
+                        </div>
+
+
+                        <div class="serviceDiv" >
+
+                            <div>
+                            <p>what type of service you are searching for</p>
+                            <input placeholder="search for service"/>
+                        </div>
+
+                        <div class="animate__animated animate__backInLeft">
+                            <button class="buttonDiv" id="pendingRequestId">Pending Request</button>
+                                <button class="buttonDiv" id="pendingApprovalsId">Pending Approvals</button>
+                                <button class="buttonDiv" id="">Auto Service</button>
+                                <button class="buttonDiv" id="">Service Configurator</button>
+                                <button class="buttonDiv" id="">SMR Create</button>
+                                <button class="buttonDiv" id="">Service instance</button>
+                        </div>
+                        </div>
+
+
+                        <div class="businessDiv" >
+
+                            <div>
+                            <p>what type of Business you are searching for</p>
+                            <input placeholder="search for Business"/>
+                            </div>
+
+                            <select class="businessSelect1">
+                                <option>Select Agency Name</option>
+                                <option> name 1</option>
+                                <option> name 2</option>
+                                <option> name 3</option>
+                            </select>
+
+                            <select class="businessSelect2">
+                                <option>Select Business type</option>
+                                <option> type 1</option>
+                                <option> type 2</option>
+                                <option> type 3</option>
+                            </select>
+
+                        <button class="businessSubmit">Submit</button>
+                        </div>
+
+
+                        <div class="vendorDiv" >
+
+                            <div>
+                            <p>what type of vendor you are searching for</p>
+                            <input placeholder="search for vendor"/>
+                        </div>
+                          
+                        
+                        <select class="businessSelect1">
+                            <option>Select Vendor Name</option>
+                            <option> name 1</option>
+                            <option> name 2</option>
+                            <option> name 3</option>
+                        </select>
+
+                        <select class="businessSelect2">
+                            <option>Select Vendor type</option>
+                            <option> type 1</option>
+                            <option> type 2</option>
+                            <option> type 3</option>
+                        </select>
+
+                    <button class="businessSubmit">Submit</button>
+
+
+
+
+
+                         
+
+
+
+
+                        </div>
+
+
+                        <div class="assetDiv" >
+                            <p>what type of Asset you are searching for</p>
+                            <input placeholder="search for asset"/>
+                        </div>
+
+
+
+                       <!-- product starts here -->
+
+                        <div class="changeRequest animate__animated animate__flipInX">
+                            <button class="buttonDiv"  onclick="createFile()" id="createId">Create</button>
+                            <button class="buttonDiv" onclick="extendFile()" id="extendId">Extend</button>
+                            <button class="buttonDiv" id="modifyId">Modify</button>
+                            <button class="buttonDiv" id="deleteId">Delete</button>
+                            <button class="buttonDiv"id="undeleteId">Undelete</button>
+
+                        </div>
+
+                       
+
+                         <div class="supersededMaterials animate__animated animate__flipInX">
+                            <button class="buttonDiv">Superseded Materials in SAP</button>
+                            <button class="buttonDiv">Superseded Materials accepeted by SAP</button>
+                            <button class="buttonDiv">Superseded Materials rejected by SAP</button>
+                            <button class="buttonDiv">Manual Supersession</button>
+                         </div>
+
+
+                         <div class="UnsupersededMaterials animate__animated animate__flipInX">
+                            <button class="buttonDiv">Unsuperseded Materials in SAP</button>
+                            <button class="buttonDiv">Unsuperseded Materials accepeted by SAP</button>
+                            <button class="buttonDiv">Unsuperseded Materials rejected by SAP</button>
+                            <button class="buttonDiv">Manual Unsupersession</button>
+                         </div>
+
+
+
+
+                           <!-- product ends here -->
+ 
+
+                            <!-- Service start here -->
+                            <div class="pendingRequest animate__animated animate__flipInX">
+                                <button class="buttonDiv" id="createId">Pending Create</button>
+                                <button class="buttonDiv" id="extendId">Pending Extend</button>
+                                <button class="buttonDiv" id="modifyId">Pending Modify</button>
+                                <button class="buttonDiv" id="deleteId">Pending Delete</button>
+                                <button class="buttonDiv"id="undeleteId">Pending Undelete</button>
+    
+                            </div>
+
+                            <div class="pendingApprovals animate__animated animate__flipInX">
+                                <button class="buttonDiv" id="createId">Create Request</button>
+                                <button class="buttonDiv" id="extendId">Extend Request</button>
+                                <button class="buttonDiv" id="modifyId">Modify Request</button>
+                                <button class="buttonDiv" id="deleteId">Delete Request</button>
+                                <button class="buttonDiv"id="undeleteId">Undelete Request</button>
+    
+                            </div>
+                            <!-- Service ends here -->
+
+
+                             <!-- Business starts here -->
+
+                             
+                             <!-- Business starts here -->
+
+
+
+
+                          <button id="productBack" class="backButton">Close</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
